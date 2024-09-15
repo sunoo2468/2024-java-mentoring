@@ -5,9 +5,9 @@ import view.InputView;
 import view.OutputView;
 
 public class CalculatorController {
-    private Calculator calculator;
-    private InputView inputView;
-    private OutputView outputView;
+    private final Calculator calculator;
+    private final InputView inputView;
+    private final OutputView outputView;
 
     public CalculatorController(Calculator calculator, InputView inputView, OutputView outputView) {
         this.calculator = calculator;
@@ -15,17 +15,14 @@ public class CalculatorController {
         this.outputView = outputView;
     }
 
-    public void controllerStart() {
-        calculator = new Calculator();
-        inputView = new InputView();
-        outputView = new OutputView();
+    public void controllerStart(Calculator calculator, InputView inputView, OutputView outputView) {
 
-        int num1 = inputView.num1();
-        int num2 = inputView.num2();
+        int firstNumber = inputView.firstNumber();
+        int secondNumber = inputView.secondNumber();
 
-        outputView.print(calculator.add(num1, num2));
-        outputView.print(calculator.subtract(num1, num2));
-        outputView.print(calculator.multiply(num1, num2));
-        outputView.print(calculator.divide(num1, num2));
+        outputView.print(calculator.add(firstNumber, secondNumber));
+        outputView.print(calculator.subtract(firstNumber, secondNumber));
+        outputView.print(calculator.multiply(firstNumber, secondNumber));
+        outputView.print(calculator.divide(firstNumber, secondNumber));
     }
 }

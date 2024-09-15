@@ -5,13 +5,13 @@ import java.util.Scanner;
 public class InputView {
     private final Scanner sc = new Scanner(System.in);
 
-    public int num1() {
-        System.out.println("Enter num1: ");
+    public int firstNumber() {
+        System.out.println("Enter first number: ");
         return sc.nextInt();
     }
 
-    public int num2() {
-        System.out.println("Enter num2: ");
+    public int secondNumber() {
+        System.out.println("Enter second number: ");
         return sc.nextInt();
     }
 }
