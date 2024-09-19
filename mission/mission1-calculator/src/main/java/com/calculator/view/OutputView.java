@@ -6,3 +6,4 @@ public class OutputView {
         System.out.println("Result: "+ resultNumber );
     }
 }
+
