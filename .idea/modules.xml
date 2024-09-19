@@ -7,7 +7,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mission.main.iml" filepath="$PROJECT_DIR$/.idea/modules/mission.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mission1-calculator/mission.mission1-calculator.iml" filepath="$PROJECT_DIR$/.idea/modules/mission1-calculator/mission.mission1-calculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mission1-calculator/mission.mission1-calculator.main.iml" filepath="$PROJECT_DIR$/.idea/modules/mission1-calculator/mission.mission1-calculator.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mission1-calculator/mission.mission1-calculator.test.iml" filepath="$PROJECT_DIR$/.idea/modules/mission1-calculator/mission.mission1-calculator.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mission2-racing/mission.mission2-racing.iml" filepath="$PROJECT_DIR$/.idea/modules/mission2-racing/mission.mission2-racing.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mission2-racing/mission.mission2-racing.main.iml" filepath="$PROJECT_DIR$/.idea/modules/mission2-racing/mission.mission2-racing.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mission2-racing/mission.mission2-racing.test.iml" filepath="$PROJECT_DIR$/.idea/modules/mission2-racing/mission.mission2-racing.test.iml" />
